@@ -2,7 +2,7 @@ const express = require('express')
 
 const app = express()
 
-//defifindo que ele vai usar json
+//definindo que vai usar json
 app.use(express.json())
 
 const cursos = ['Lógica', 'SQL', 'Node', 'HTML']
